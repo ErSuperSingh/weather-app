@@ -1,4 +1,3 @@
-User
 #!/bin/bash
 
 # Navigate to the application directory
