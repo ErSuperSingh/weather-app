@@ -14,7 +14,7 @@ export NVM_DIR="$HOME/.nvm"
 npm install
 
 # Start the Node.js application in the background, redirecting output to app.log
-nohup npm start -- your-app-name > /home/ubuntu/React-Ecommerce/app.log 2>&1 &
+nohup npm start -- your-app-name > /home/ubuntu/weather-app/app.log 2>&1 &
 
 # Capture the PID of the background process
 pid=$!
