@@ -13,8 +13,10 @@ export NVM_DIR="$HOME/.nvm"
 # Install node modules
 npm install
 
-# Start the Node.js application
-npm start -- your-app-name > /home/ubuntu/React-Ecommerce/app.log 2>&1 &
+# Start the Node.js application in the background, redirecting output to app.log
+nohup npm start -- your-app-name > /home/ubuntu/React-Ecommerce/app.log 2>&1 &
+
+# Capture the PID of the background process
 pid=$!
 
 # Wait for the application to start (you can adjust the sleep time based on your application's startup time)
