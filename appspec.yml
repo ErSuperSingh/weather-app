@@ -4,7 +4,7 @@ fileExistsBehavior: OVERWRITE
 files:
   - source: /
     destination: /home/ubuntu/weather-app
-   
+    overwrite: true
 permissions:
   - object: /home/ubuntu/weather-app
     pattern: "**"
