@@ -4,9 +4,7 @@ fileExistsBehavior: OVERWRITE
 files:
   - source: /
     destination: /home/ubuntu/weather-app
-    except: 
-      - scripts/**
-      - package-lock.json
+   
 permissions:
   - object: /home/ubuntu/weather-app
     pattern: "**"
