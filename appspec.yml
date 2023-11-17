@@ -1,5 +1,6 @@
 version: 0.0
 os: linux
+fileExistsBehavior: OVERWRITE
 files:
   - source: /
     destination: /home/ubuntu/weather-app
